@@ -1,12 +1,15 @@
 require('dotenv').config();
 const { REST, Routes } = require('discord.js');
 
-// This script currently deploys zero commands, serving as a proof of concept.
-// To deploy commands, populate the annotated array below.
 (async () => {
   const rest = new REST().setToken(process.env.TOKEN);
-  // TODO: Populate this to deploy commands.
-  const commands = [];
+  const commands = [
+    {
+      name: 'quote',
+      description:
+        "Enlighten yourself with a quote from some of the world's brightest minds."
+    }
+  ];
 
   try {
     console.log('Deploying commands (/).');
