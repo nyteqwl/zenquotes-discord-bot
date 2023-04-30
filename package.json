@@ -1,0 +1,33 @@
+{
+  "name": "zenquotes-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon --watch src/ src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyteqwl/zenquotes-discord-bot.git"
+  },
+  "author": "Jordan Searcy-Hosea <nyteqwl@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nyteqwl/zenquotes-discord-bot/issues"
+  },
+  "homepage": "https://github.com/nyteqwl/zenquotes-discord-bot#readme",
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3"
+  }
+}
