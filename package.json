@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "nodemon --watch src/ src/index.js",
+    "deploy-commands": "node scripts/deploy-commands.js",
     "start": "node src/index.js"
   },
   "repository": {
