@@ -33,9 +33,7 @@ client.on(Events.InteractionCreate, async (i) => {
       });
       await reply.react('💡');
     } catch (e) {
-      await i.reply(
-        'Sorry, I was unable to process your command. Please try again.'
-      );
+      i.reply('Sorry, I was unable to process your command. Please try again.');
     }
   }
 });
